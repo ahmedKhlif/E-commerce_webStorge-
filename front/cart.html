@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Your Shopping Cart</title>
+<meta charset="utf-8" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.store.js"></script>
+<link rel="stylesheet" type="text/css" href="stylee.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat :wght@100 ; 200; 300; 400; 500; 600; 700; 800; 900&display=swap" rel="stylesheet" >
+<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+ 
+</head>
+
+<body>
+
+<div id="site">
+	
+	<div id="content">
+		<h1>Your Shopping Cart</h1>
+		<form id="shopping-cart" action="cart.html" method="post">
+			<table class="shopping-cart">
+			  <thead>
+				<tr>
+					<th scope="col">Item</th>
+					<th scope="col">Qty</th>
+					<th scope="col" colspan="2">Price</th>
+				</tr>
+			  </thead>
+			  <tbody>
+			  
+			  </tbody>
+			</table>
+			<p id="sub-total">
+				<strong>Sub Total</strong>: <span id="stotal"></span>
+			</p>
+			<ul id="shopping-cart-actions">
+				<li>
+					<input type="submit" name="update" id="update-cart" class="btn" value="Update Cart" />
+				</li>
+				<li>
+					<input type="submit" name="delete" id="empty-cart" class="btn" value="Empty Cart" />
+				</li>
+				<li>
+					<a href="index.html" class="btn">Continue Shopping</a>
+				</li>
+				<li>
+					<a href="checkout.html" class="btn">Go To Checkout</a>
+				</li>
+			</ul>
+		</form>
+	</div>
+	
+	
+
+</div>
+<footer>
+<!----contact start--->
+<section class="contact" id="contact">
+  <div class="main-contact">
+  <div class="contact-content">
+  <li><a href="#shop" >Shop</a></li>
+  <li><a href="#about" >About</a></li>
+  <li><a href="#faq" >Faq</a></li>
+  <li><a href="#contact">Contact</a></li>|
+  </div>
+  <div class="contact-content">
+    <li><a href="#">Shipping -& Returns</a></li>
+    <li><a href="#">Store Policy</a></li>
+    <li><a href="#" >Payment -Methods</a></li>
+  </div>
+
+  <div class="contact-content">
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Tel : +216 94 272 455</a></li>
+  </div>
+  <div class="contact-content">
+    <li><a href="#">Facebook</a></li>
+    <li><a href="#">Instagram</a></li>
+    <li><a href="#">Pinterest</a></li>
+    </div>
+    
+     
+    
+    <div class="action">
+      <form>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="submit" name="submit" value="submit" required>
+      </form>
+      </div>
+  </div>
+      </section>
+      <div class="last">
+      <p>© 2023 by Bag. Proudly created with Ahmed Khlif</p>
+    </div>
+      
+    
+     
+    
+   
+  </footer>
+
+
+
+
+
+
+</body>
+</html>	
